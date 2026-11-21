@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="lux" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#4a101d"/>
+      <stop offset="60%" stop-color="#2a050c"/>
+      <stop offset="100%" stop-color="#190206"/>
+    </radialGradient>
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3dca0" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#c9a064" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#5a1423" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#lux)"/>
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#c9a064" stroke-width="1" stroke-opacity="0.25" stroke-dasharray="4 6"/>
+  <circle cx="400" cy="400" r="220" fill="none" stroke="#c9a064" stroke-width="1.5" stroke-opacity="0.35"/>
+  <circle cx="400" cy="400" r="160" fill="none" stroke="#c9a064" stroke-width="0.8" stroke-opacity="0.2"/>
+  <g transform="translate(400, 400) scale(1.6)" opacity="0.45">
+    <path d="M0 -22 C6 -14 8 -6 0 6 C-8 -6 -6 -14 0 -22 Z" fill="#e8c47a"/>
+    <path d="M-26 -10 C-16 -12 -8 -4 -4 10 C-14 8 -22 0 -26 -10 Z" fill="#e8c47a" opacity="0.8"/>
+    <path d="M26 -10 C16 -12 8 -4 4 10 C14 8 22 0 26 -10 Z" fill="#e8c47a" opacity="0.8"/>
+    <path d="M-32 2 C-24 2 -16 8 -10 18 C-22 18 -30 12 -32 2 Z" fill="#e8c47a" opacity="0.6"/>
+    <path d="M32 2 C24 2 16 8 10 18 C22 18 30 12 32 2 Z" fill="#e8c47a" opacity="0.6"/>
+  </g>
+  <rect width="100%" height="100%" fill="url(#shimmer)"/>
+</svg>
